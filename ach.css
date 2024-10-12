@@ -1,0 +1,130 @@
+@media ((min-width:481px) and (max-width: 1200px)) {
+  
+    html, body {
+      height: 100%;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+    }
+    .gradient-background {
+    background-color:bisque;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    }
+
+}
+@media (min-width:1201px){
+
+    html, body {
+        height: 100%;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+      }
+
+    .gradient-background {
+        height: 100%;
+        width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    
+  }
+  .cert{
+    background-color:bisque;
+    display: flex;
+    
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tools{
+    background-color: rgb(234, 234, 234);
+  }
+  .cert1{
+    display: flex;
+
+    background-color:bisque;
+    height: 80%;
+    width: 80%;
+    
+   
+  }
+  .disc{
+    width: 80%
+ }
+ img{
+    padding-top: 2%;
+ }
+}
+
+  
+@media (max-width: 480px) {
+    html, body {
+      height: 100%;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+    }
+    .gradient-background {
+        height: 82vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: #F1FFBB;
+        overflow-y: scroll;
+      }
+    
+    .disc{
+        font-size: 0.7rem;
+        padding: 2.6%;
+        padding-top: 1%;
+      
+      }
+      .cert1{
+       background-color: rgb(225, 225, 225);
+        padding: 4.5%;
+      }
+      .lss{
+        padding: 2.6%;
+        display: flex;
+        gap: 2%;
+        text-wrap: nowrap;
+      }
+  
+      .fa-comment{
+        color: rgb(108, 108, 255);
+      }
+      footer{
+        width: 100vw;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(194, 194, 194);
+      }
+      footer button{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        border-radius: 50%;
+        background-color: blue;
+        position: fixed;
+      }
+      .red {
+        color: red;
+      }
+}
